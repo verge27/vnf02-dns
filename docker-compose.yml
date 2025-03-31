@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vnf02-dns:
+    build: ./vnf02-dns
+    container_name: vnf02-dns
+    ports:
+      - "5353:53/udp"
+    mem_limit: 128m

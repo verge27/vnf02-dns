@@ -1,0 +1,3 @@
+RunAsDaemon 0
+SocksPort 9050
+Log notice stdout
